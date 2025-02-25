@@ -1,0 +1,53 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Model and Dataset Files (Large Files, can be adjusted as needed)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+
+# Large dataset files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# Logs and Outputs
+*.log
+*.out
+*.err
+
+# MacOS & Windows System Files
+.DS_Store
+Thumbs.db
+
+# Hugging Face Transformers Cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Checkpoints and Training Artifacts
+runs/
+checkpoints/
+saved_models/
+
+# VS Code settings (optional, if using VS Code)
+.vscode/
+
